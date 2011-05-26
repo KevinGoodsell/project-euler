@@ -12,11 +12,6 @@
 
 #include <iostream>
 
-bool is_ptriplet(int a, int b, int c)
-{
-    return a*a + b*b == c*c;
-}
-
 int main()
 {
     int a, b, c;
