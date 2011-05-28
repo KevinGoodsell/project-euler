@@ -21,7 +21,7 @@ int main()
     BigInt foo = 1;
 
     for (int i=1; i<=100; i++) {
-        foo *= BigInt(i);
+        foo *= i;
     }
 
     std::string digits = foo.as_string();
